@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <title>小高的百度网页</title>
+<head>
+    <style>
+        /* CSS样式 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 90px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .search-box {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .search-box input[type="text"] {
+            width: 400px;
+            height: 40px;
+            padding: 10px;
+            font-size: 18px;
+        }
+        
+        .search-box input[type="submit"] {
+            background-color: #3388ff;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img id="s_lg_img" class="s_lg_img_gold_show" src="//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" 
+            width="270" height="129" 
+            onerror="this.src='https://pss.bdstatic.com/static/superman/img/logo/bd_logo1-66368c33f8.png';this.onerror=null;" 
+            usemap="#mp" title="百度" cursor="default">
+        </div>
+        <div class="search-box">
+            <form action="https://www.baidu.com/s">
+                <input type="text" name="wd" placeholder="请输入搜索内容" />
+                <input type="submit" value="百度一下" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>
